@@ -162,6 +162,12 @@
 		04BBAD2220C13EBC00A135FB /* XBJinRRCreatBigPicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAD2120C13EBC00A135FB /* XBJinRRCreatBigPicView.m */; };
 		04BBAD2620C14F2600A135FB /* XBJinRRCreatSmallPicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBAD2420C14F2600A135FB /* XBJinRRCreatSmallPicTableViewCell.m */; };
 		04BBAD2720C14F2600A135FB /* XBJinRRCreatSmallPicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BBAD2520C14F2600A135FB /* XBJinRRCreatSmallPicTableViewCell.xib */; };
+		317416FC2A24245A00150DCA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 317416FB2A24245A00150DCA /* README.md */; };
+		317417032A24246A00150DCA /* screenshot_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 317416FE2A24246A00150DCA /* screenshot_5.png */; };
+		317417042A24246A00150DCA /* screenshot_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 317416FF2A24246A00150DCA /* screenshot_4.png */; };
+		317417052A24246A00150DCA /* screenshot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 317417002A24246A00150DCA /* screenshot_1.png */; };
+		317417062A24246A00150DCA /* screenshot_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 317417012A24246A00150DCA /* screenshot_3.png */; };
+		317417072A24246A00150DCA /* screenshot_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 317417022A24246A00150DCA /* screenshot_2.png */; };
 		3C360A5F20A049B600649912 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C360A5E20A049B600649912 /* Foundation+Log.m */; };
 		3C360A6220A04C9700649912 /* XBJinRRHomBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C360A6120A04C9700649912 /* XBJinRRHomBannerCell.m */; };
 		3C360A7320A04D7900649912 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C360A6620A04D7900649912 /* TAAbstractDotView.m */; };
@@ -632,6 +638,12 @@
 		04BBAD2420C14F2600A135FB /* XBJinRRCreatSmallPicTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBJinRRCreatSmallPicTableViewCell.m; sourceTree = "<group>"; };
 		04BBAD2520C14F2600A135FB /* XBJinRRCreatSmallPicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XBJinRRCreatSmallPicTableViewCell.xib; sourceTree = "<group>"; };
 		11FB2B9026773AD269960EEB /* Pods-Jinrirong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jinrirong.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jinrirong/Pods-Jinrirong.release.xcconfig"; sourceTree = "<group>"; };
+		317416FB2A24245A00150DCA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		317416FE2A24246A00150DCA /* screenshot_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_5.png; sourceTree = "<group>"; };
+		317416FF2A24246A00150DCA /* screenshot_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_4.png; sourceTree = "<group>"; };
+		317417002A24246A00150DCA /* screenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_1.png; sourceTree = "<group>"; };
+		317417012A24246A00150DCA /* screenshot_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_3.png; sourceTree = "<group>"; };
+		317417022A24246A00150DCA /* screenshot_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_2.png; sourceTree = "<group>"; };
 		3C360A5E20A049B600649912 /* Foundation+Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		3C360A6020A04C9700649912 /* XBJinRRHomBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBJinRRHomBannerCell.h; sourceTree = "<group>"; };
 		3C360A6120A04C9700649912 /* XBJinRRHomBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBJinRRHomBannerCell.m; sourceTree = "<group>"; };
@@ -1253,6 +1265,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		317416FD2A24246A00150DCA /* screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				317416FE2A24246A00150DCA /* screenshot_5.png */,
+				317416FF2A24246A00150DCA /* screenshot_4.png */,
+				317417002A24246A00150DCA /* screenshot_1.png */,
+				317417012A24246A00150DCA /* screenshot_3.png */,
+				317417022A24246A00150DCA /* screenshot_2.png */,
+			);
+			name = screenshot;
+			path = ../screenshot;
+			sourceTree = "<group>";
+		};
 		3C360A6320A04D7900649912 /* SDCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1426,6 +1451,8 @@
 		3C3B59E0209A8D0B005DDE98 = {
 			isa = PBXGroup;
 			children = (
+				317416FB2A24245A00150DCA /* README.md */,
+				317416FD2A24246A00150DCA /* screenshot */,
 				3C3B59EB209A8D0B005DDE98 /* Jinrirong */,
 				3C3B59EA209A8D0B005DDE98 /* Products */,
 				3CAD8C9920A98DAC00295E21 /* Frameworks */,
@@ -2428,15 +2455,20 @@
 				045EB4A020C61B6F002CBB2D /* XBJinRRChoosePaymodeCell.xib in Resources */,
 				040AA23420C776A500151650 /* XBJinRRCredibilityCell.xib in Resources */,
 				3C8037C820ABCC750040A542 /* UMSocialSDKPromptResources.bundle in Resources */,
+				317417052A24246A00150DCA /* screenshot_1.png in Resources */,
 				043C7FAF20C53EC600AA226B /* XBJinRRMyPurseTopCell.xib in Resources */,
+				317417032A24246A00150DCA /* screenshot_5.png in Resources */,
 				3C3B59F9209A8D0C005DDE98 /* LaunchScreen.storyboard in Resources */,
 				0412425D20C0D3760033A3BF /* accessory_normal@2x.png in Resources */,
+				317416FC2A24245A00150DCA /* README.md in Resources */,
+				317417062A24246A00150DCA /* screenshot_3.png in Resources */,
 				043C7F8820C529F100AA226B /* XBJinRRCustomerListHeaderViewCell.xib in Resources */,
 				3C3B5A7B209AA602005DDE98 /* SVProgressHUD.bundle in Resources */,
 				043F024420E7682900BF8D39 /* XBJinRRNewSalaryDesCell.xib in Resources */,
 				0434BD5420B6477C002B0C63 /* XBJinRR_InputTFCell.xib in Resources */,
 				045EB4BE20C67FFC002CBB2D /* XBJinRRCreditReportingListCell.xib in Resources */,
 				043C7F8D20C52AD200AA226B /* XBJinRRCustomerListInfoCell.xib in Resources */,
+				317417042A24246A00150DCA /* screenshot_4.png in Resources */,
 				0412425C20C0D3760033A3BF /* accessory_highlight@2x.png in Resources */,
 				04BBAD2720C14F2600A135FB /* XBJinRRCreatSmallPicTableViewCell.xib in Resources */,
 				3C78038920A27E9500F91B98 /* MJRefresh.bundle in Resources */,
@@ -2447,6 +2479,7 @@
 				046FE60E20C7DE0C00741098 /* WXWebViewController.xib in Resources */,
 				043C7F6B20C4C6CD00AA226B /* XBJinRRCreditCradDetailProtocolCell.xib in Resources */,
 				045EB4C920C6B70A002CBB2D /* XBJinRRPersonaIForeItemCell.xib in Resources */,
+				317417072A24246A00150DCA /* screenshot_2.png in Resources */,
 				043F023F20E75B0000BF8D39 /* XBJinRRBigBankCardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
